@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+*.qcow2
+*.image
+*.rom
+*.key
+*-new.dc42

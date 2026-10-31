@@ -1,0 +1,6 @@
+*.TEXT -text
+*.dc42 -text
+*.bin -text
+*.png -text
+*.py text eol=lf
+*.md text eol=lf

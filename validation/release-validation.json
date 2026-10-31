@@ -1,0 +1,28 @@
+{
+  "file": "Z:\\RETRO MAC\\LISA\\Labirintus3D.dc42",
+  "bytes": 419284,
+  "sha256": "d95b32c3e84ca054dbaab8714d7386cb5b6e20d247b7528b332506974ad1d8d1",
+  "nas_readback_identical": true,
+  "model_checks": 69359,
+  "native_checks": 345,
+  "native_stages": [
+    "input",
+    "levels",
+    "map",
+    "render",
+    "video"
+  ],
+  "idle_video_frames": 80,
+  "turning_video_frames": 80,
+  "actual_held_turns": 3,
+  "distinct_turn_viewport_frames": 3,
+  "bitmap_word_aligned": true,
+  "closed_games_sha256": "0aea75a46eded3b6fa33145c0f42e1c6795f269ae7bc9b18be0d984264b1ff53",
+  "existing_files_unchanged": 18,
+  "image_files_untouched": true,
+  "emulator_package_untouched": true,
+  "physical_hardware_tested": false,
+  "windows_runtime_tested": false,
+  "los_30_runtime_tested": false,
+  "native_hard_disk_installation_tested": true
+}

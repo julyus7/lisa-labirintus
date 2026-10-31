@@ -1,0 +1,442 @@
+{
+  "image_sha256": "d95b32c3e84ca054dbaab8714d7386cb5b6e20d247b7528b332506974ad1d8d1",
+  "games_baseline_sha256": "2062a294293525ce361ffc94b0961f2b8ad111aa4f1d27a379e6ef0a5c797992",
+  "games_closed_sha256": "0aea75a46eded3b6fa33145c0f42e1c6795f269ae7bc9b18be0d984264b1ff53",
+  "existing_tool_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    10,
+    11,
+    12,
+    13,
+    201,
+    240,
+    241,
+    242,
+    243,
+    244,
+    557,
+    419308,
+    419309,
+    419311
+  ],
+  "final_tool_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    10,
+    11,
+    12,
+    13,
+    201,
+    240,
+    241,
+    242,
+    243,
+    244,
+    249,
+    557,
+    419308,
+    419309,
+    419311
+  ],
+  "unchanged_existing_tools": 20,
+  "verified_payloads": 77,
+  "files": [
+    {
+      "name": "{T10}PHRASE",
+      "sha256": "b1f44660912db687005b1e0f3ffca13befcb3faa8561f9e1a37c1a3ff735abec",
+      "bytes": 11689
+    },
+    {
+      "name": "{T10}obj",
+      "sha256": "9abf3eee8d681dcffbc0522e2ee6933e8e34a572245559c9fe546e9ae1ec8311",
+      "bytes": 55808
+    },
+    {
+      "name": "{T11}BUTTONS",
+      "sha256": "1fbd10032570a9e879176c5b9535f183130d160ad9778d517d8f5372bcf88ee4",
+      "bytes": 41472
+    },
+    {
+      "name": "{T11}PHRASE",
+      "sha256": "006db4acbc6d6bbca873f12616fcf1d4049d52423108e37809b01b7b1fb3a89e",
+      "bytes": 11209
+    },
+    {
+      "name": "{T11}obj",
+      "sha256": "c7238bb88a23286cf64b25ee97d33412f111377e1a235ef3d617c08654e04f4c",
+      "bytes": 31232
+    },
+    {
+      "name": "{T12}PHRASE",
+      "sha256": "2044fc2850e59580b38caa2c666778544e83a8e05c198c2afce06e3724fc73a9",
+      "bytes": 4617
+    },
+    {
+      "name": "{T12}obj",
+      "sha256": "39f56e8e9450f8a6aaf30b3010cf54e69b2f6cd3b525f9ac0e9b50edb8c15417",
+      "bytes": 23552
+    },
+    {
+      "name": "{T13}PHRASE",
+      "sha256": "d93e8bcf640c300accb1f5dcfeb3dc8293678dda319a0f9dcbcad5dab64b200d",
+      "bytes": 2142
+    },
+    {
+      "name": "{T13}obj",
+      "sha256": "2664dd5be088f7bf86d9eb7ed7b65b9f56ee2a47afbdaac5833c2ab7d4707f62",
+      "bytes": 11264
+    },
+    {
+      "name": "{T13}obj1",
+      "sha256": "38590aa533a5cb4d0205694ca0caf67896db062117bb966a36e50c9b2612887a",
+      "bytes": 2048
+    },
+    {
+      "name": "{T1}OBJ",
+      "sha256": "fd524a6e6e1608da4e4b1c3140adbc4c2372ddae85214e705ee375233ba6ab08",
+      "bytes": 120320
+    },
+    {
+      "name": "{T1}dbox.text",
+      "sha256": "03a3072f1a66d027ef24f663fa4909893d810eb885b77ffd604ba22aa10aa410",
+      "bytes": 2048
+    },
+    {
+      "name": "{T1}phrase",
+      "sha256": "debdba78a62a19a89d8a6485426c89b6693e2b6b6fb45c15169959a22cfa2bc2",
+      "bytes": 12613
+    },
+    {
+      "name": "{T1}search.lotus",
+      "sha256": "a08a2f7443a904cafddbe7d411366a755904d7e0466b7c5b1d74ea3659c30536",
+      "bytes": 1024
+    },
+    {
+      "name": "{T201}ICON",
+      "sha256": "45d6dbf0c6ecb41b69d3a42ab64d46b44ed09aeb59ac3533df851ea8e76d9a85",
+      "bytes": 814
+    },
+    {
+      "name": "{T201}ICON.BACKUP",
+      "sha256": "63106180f1dae4c4bcba6b5595a95a2a7aefdeb9bf8a9031b37aa7e60fd56232",
+      "bytes": 814
+    },
+    {
+      "name": "{T201}Obj",
+      "sha256": "2da2ec2b3dd957fce58acf8b27cf627779450d627f5d4a2183ea3a752dca6dfb",
+      "bytes": 21504
+    },
+    {
+      "name": "{T201}PHRASE",
+      "sha256": "9389310311472077c2d1becb18b59a07992765400624a6198c4de764c5b4bbeb",
+      "bytes": 2266
+    },
+    {
+      "name": "{T240}ICON",
+      "sha256": "3e8f2bd0a8abb547d6ef192bdd5f27c298b283a0767ecb130cd1d8387991ab42",
+      "bytes": 814
+    },
+    {
+      "name": "{T240}ICON.BACKUP",
+      "sha256": "3e8f2bd0a8abb547d6ef192bdd5f27c298b283a0767ecb130cd1d8387991ab42",
+      "bytes": 814
+    },
+    {
+      "name": "{T240}Obj",
+      "sha256": "0ffd4682127c2b4b524c7fcb49056c3a9e7780fde8e4af3dfaf2af614cc4c8e6",
+      "bytes": 18944
+    },
+    {
+      "name": "{T240}PHRASE",
+      "sha256": "1c618e7e81fb800d196cecc704e74a382880f1866dd59d4e6438c61418e271b2",
+      "bytes": 1618
+    },
+    {
+      "name": "{T241}ICON",
+      "sha256": "0d65eef488da007e57410f45258e00d6302b0231b4156d6efa7c3e8107729fda",
+      "bytes": 814
+    },
+    {
+      "name": "{T241}ICON.BACKUP",
+      "sha256": "0d65eef488da007e57410f45258e00d6302b0231b4156d6efa7c3e8107729fda",
+      "bytes": 814
+    },
+    {
+      "name": "{T241}Obj",
+      "sha256": "00d7e65025d703adf3808c455b0646958775e7432ef03871df1054e4fdf2f3a1",
+      "bytes": 9728
+    },
+    {
+      "name": "{T241}PHRASE",
+      "sha256": "b8cd0866d35a828b6197cd4ed9c0b1a8ba9df92f6f980efa5ea1921b2702fe18",
+      "bytes": 1618
+    },
+    {
+      "name": "{T242}ICON",
+      "sha256": "9589a00820f0998e500870a38667d4c5320b33c37fb16292e53dcea53fd96a0a",
+      "bytes": 814
+    },
+    {
+      "name": "{T242}ICON.BACKUP",
+      "sha256": "9589a00820f0998e500870a38667d4c5320b33c37fb16292e53dcea53fd96a0a",
+      "bytes": 814
+    },
+    {
+      "name": "{T242}Obj",
+      "sha256": "a3b40497a84ec622d6d76833304033aa0edadea9c375fd3afce6a29a3b979f2d",
+      "bytes": 11264
+    },
+    {
+      "name": "{T242}PHRASE",
+      "sha256": "02acb723932050e1b8233b5e78eaa8581a6cf3edb68c698cb8f70fbb90fb89f7",
+      "bytes": 1618
+    },
+    {
+      "name": "{T243}ICON",
+      "sha256": "efb139a1ef48b67235ecfc258e45ae48d7322888bf44ee829e3d05f1acacef28",
+      "bytes": 814
+    },
+    {
+      "name": "{T243}ICON.BACKUP",
+      "sha256": "efb139a1ef48b67235ecfc258e45ae48d7322888bf44ee829e3d05f1acacef28",
+      "bytes": 814
+    },
+    {
+      "name": "{T243}Obj",
+      "sha256": "1cae479be40d8169dff5134517f91b622b074a38a8eb6b4b33fe0883d67f85cf",
+      "bytes": 8192
+    },
+    {
+      "name": "{T243}PHRASE",
+      "sha256": "072d88b5a469aadc6cad25d79f5e85390d6869b314cfd92a36ac12f356d51c92",
+      "bytes": 1618
+    },
+    {
+      "name": "{T244}ICON",
+      "sha256": "4a0a51bc62c409c31e21f803c8e2a54f275726f73a5fcabe94b2692c36445562",
+      "bytes": 814
+    },
+    {
+      "name": "{T244}ICON.BACKUP",
+      "sha256": "4a0a51bc62c409c31e21f803c8e2a54f275726f73a5fcabe94b2692c36445562",
+      "bytes": 814
+    },
+    {
+      "name": "{T244}Obj",
+      "sha256": "4edda1a14e9ceab3d0a182045938e3b7d0da1bee3b4f6ef91de6348150bdb800",
+      "bytes": 11776
+    },
+    {
+      "name": "{T244}PHRASE",
+      "sha256": "bb88c50384e568353ca8f73bb23815ea2969fe4a1909c14ec09f42189132ad9f",
+      "bytes": 1618
+    },
+    {
+      "name": "{T2}PHRASE",
+      "sha256": "53e5fd322ff7c54c4867bbf19420a9a92359d08dac6e67efeeeb54e5420d520e",
+      "bytes": 26117
+    },
+    {
+      "name": "{T2}obj",
+      "sha256": "b65cb8e39a15a05d9e8eb628f932cd90b79534bf926b139e9c7f873514c3e621",
+      "bytes": 31744
+    },
+    {
+      "name": "{T2}tables",
+      "sha256": "e1c44527df67586270e092d848493250970e6ae8e1d802347fcdb6bbe55ecd27",
+      "bytes": 3072
+    },
+    {
+      "name": "{T3}CircleBox",
+      "sha256": "bd9bd1875d47bb90b7496cf43be4cdfa096042dacb729333fbac83158081d453",
+      "bytes": 512
+    },
+    {
+      "name": "{T3}FindBox",
+      "sha256": "5b1619cfabff0c31bd80339c528b66290a03f0bb3f51fd5be20da12c49d57e8f",
+      "bytes": 512
+    },
+    {
+      "name": "{T3}PHRASE",
+      "sha256": "7c969ab1e17f1b2595350017fc6a68c2159aea5b44ae01542d240a6b61fd2774",
+      "bytes": 27443
+    },
+    {
+      "name": "{T3}PrintBox",
+      "sha256": "299092bba5f4de0c261960c6988cc5d17b00fdc703b3a6cbb2cb05ac1277fd41",
+      "bytes": 512
+    },
+    {
+      "name": "{T3}StatusBox",
+      "sha256": "7b8816ae26d39c90d5ca8b8d6f97de6caa6159acfb24adda60fe07d575258952",
+      "bytes": 512
+    },
+    {
+      "name": "{T3}funchints",
+      "sha256": "9278a50d086f7d28e9c875f7b39f2362b2d29a97e37fab60602e0549d885bebd",
+      "bytes": 10240
+    },
+    {
+      "name": "{T3}obj",
+      "sha256": "f20cc57a98ee03faca603a9203ccc06a7ea3c907fc4eb426317dd6d95c425663",
+      "bytes": 3584
+    },
+    {
+      "name": "{T3}tables",
+      "sha256": "e1c44527df67586270e092d848493250970e6ae8e1d802347fcdb6bbe55ecd27",
+      "bytes": 3072
+    },
+    {
+      "name": "{T419308}ICON",
+      "sha256": "9bd12068e2a7fc58fdd234bc567236db8a5b87ec5f9c85a91850629f71b09ec5",
+      "bytes": 1024
+    },
+    {
+      "name": "{T419308}Obj",
+      "sha256": "3214af5d957467b80aadd0e748b34a17e4de76066de31f6573de8ddeef8f18a6",
+      "bytes": 8192
+    },
+    {
+      "name": "{T419308}PHRASE",
+      "sha256": "29850b612637aabf3bb1b3867f5454094b254ff7163f25f3d837e5708fdef9f9",
+      "bytes": 3038
+    },
+    {
+      "name": "{T419309}ICON",
+      "sha256": "1026e8c608112b46daccb37d8439bc2e2cadffaf784a9a296a571bf15a20d5f8",
+      "bytes": 1024
+    },
+    {
+      "name": "{T419309}Obj",
+      "sha256": "837c97db4cd2b0a5cfb53f997e3f9a823cce94942a4abad0e9b56d869504e0d9",
+      "bytes": 12288
+    },
+    {
+      "name": "{T419309}PHRASE",
+      "sha256": "2427df77d3b10eb2c7181a767ca0336dc4d51e67bcca6775db17caae5c7ca5e4",
+      "bytes": 3195
+    },
+    {
+      "name": "{T419311}ICON",
+      "sha256": "34144a14f6e59d504a0eb7cee5f839bb36c930752d1c85ac259e0beb045c6313",
+      "bytes": 1024
+    },
+    {
+      "name": "{T419311}Obj",
+      "sha256": "e4460c9d71b91c96f73139bdcf275b47dab7c321f5eda80d0670cacd8ae973d5",
+      "bytes": 29184
+    },
+    {
+      "name": "{T419311}PHRASE",
+      "sha256": "466f04a980f6730b8fc867234febaec39573fd48b785adbe0b5ca819156efb97",
+      "bytes": 5811
+    },
+    {
+      "name": "{T4}PHRASE",
+      "sha256": "adefb587056816d23087af786db4b36d39e57b72e4d7f88749f4188e575b3086",
+      "bytes": 9437
+    },
+    {
+      "name": "{T4}checkforms.text",
+      "sha256": "a253296954dce903f51db77b0e723529660219cc297c6fd9c829db1d0cf70d8e",
+      "bytes": 3072
+    },
+    {
+      "name": "{T4}obj",
+      "sha256": "f7251d10c3cede46a2dc935e799079757fa2d05c392c78e78feaafd600d389a0",
+      "bytes": 102400
+    },
+    {
+      "name": "{T557}ICON",
+      "sha256": "65a24a813bec13df649028a4e2eb32bd45775f44b317ad5f994fc65cfaa6509d",
+      "bytes": 814
+    },
+    {
+      "name": "{T557}OBJ",
+      "sha256": "2e5baa98894d3d6e5fb6c535eba40b70b3f03198fe3796a47ce46857ac2927f2",
+      "bytes": 16896
+    },
+    {
+      "name": "{T557}PHRASE",
+      "sha256": "5c89985961badf214a233cc864258fe73a6e06917aeca6bb8ac2640072c2c2ea",
+      "bytes": 4685
+    },
+    {
+      "name": "{T5}dbcPHRASE",
+      "sha256": "26b683f4e8de5081b88ca9662588555d6dc212f37e821c216ca6225df37cef2c",
+      "bytes": 4359
+    },
+    {
+      "name": "{T5}lmPHRASE",
+      "sha256": "7ede5c0763fa06995708baa86b38f0dedc1d1960dc6e0ecdfb78f52142bcd236",
+      "bytes": 22300
+    },
+    {
+      "name": "{T5}obj",
+      "sha256": "809fb469fadfb981af64bee7ce05168594dd2f38429afe60957375b834f272a1",
+      "bytes": 121856
+    },
+    {
+      "name": "{T8}OBJ",
+      "sha256": "34ece0d80e4809e1afa307c98fbf2427fed4be3cde4557ff8f926d095ed93b29",
+      "bytes": 84992
+    },
+    {
+      "name": "{T8}PHRASE",
+      "sha256": "3a0c4bec0b7fea3644c0211620199f9a662816549ca2d2fe6ad3a7d142899c7f",
+      "bytes": 14908
+    },
+    {
+      "name": "{T8}dialogs.text",
+      "sha256": "2b19cc670f646e7c8ca41c800c5694f96b9290d58c4b991642f05f2d9dc50d89",
+      "bytes": 4096
+    },
+    {
+      "name": "{t10}dbox.text",
+      "sha256": "665213b8918ac47cca0f8fd2a0bb9c838db262575fd49b75e22f9bc3de373a3c",
+      "bytes": 3072
+    },
+    {
+      "name": "{t201}icon2",
+      "sha256": "a657fade8dbca51d805bd140916fe0a1b94d5668cbfac1f734da6770f2a23031",
+      "bytes": 814
+    },
+    {
+      "name": "{t240}icon2",
+      "sha256": "3e8f2bd0a8abb547d6ef192bdd5f27c298b283a0767ecb130cd1d8387991ab42",
+      "bytes": 814
+    },
+    {
+      "name": "{t241}icon2",
+      "sha256": "0d65eef488da007e57410f45258e00d6302b0231b4156d6efa7c3e8107729fda",
+      "bytes": 814
+    },
+    {
+      "name": "{t242}icon2",
+      "sha256": "9589a00820f0998e500870a38667d4c5320b33c37fb16292e53dcea53fd96a0a",
+      "bytes": 814
+    },
+    {
+      "name": "{t243}icon2",
+      "sha256": "efb139a1ef48b67235ecfc258e45ae48d7322888bf44ee829e3d05f1acacef28",
+      "bytes": 814
+    },
+    {
+      "name": "{t244}icon2",
+      "sha256": "4a0a51bc62c409c31e21f803c8e2a54f275726f73a5fcabe94b2692c36445562",
+      "bytes": 814
+    }
+  ],
+  "native_floppy_launch_with_existing_tools": true,
+  "own_tool_present_on_private_hard_disk": true,
+  "native_hard_disk_installation_tested": true
+}

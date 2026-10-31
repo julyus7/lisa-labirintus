@@ -1,0 +1,5 @@
+$EXEC
+P{ascal Compile}M.TEXT
+{no listing}
+M.OBJ
+$ENDEXEC

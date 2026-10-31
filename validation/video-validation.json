@@ -1,0 +1,16 @@
+{
+  "frames": 80,
+  "idle_frames": 80,
+  "requested_capture_hz": 10,
+  "requested_frames": 80,
+  "static_viewport_identical": true,
+  "static_map_identical": true,
+  "no_idle_repaints": true,
+  "guest_state_writes": false,
+  "static_patch_identical": true,
+  "turn_frames": 80,
+  "static_map_while_turning": true,
+  "actual_turns": 3,
+  "distinct_turn_viewport_frames": 3,
+  "moving_player_mask_native_pixels": 32
+}

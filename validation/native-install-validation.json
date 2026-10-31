@@ -1,0 +1,36 @@
+{
+  "passed": 4,
+  "checks": [
+    {
+      "check": "LOS Duplicate and drag installed the own-icon tool into Games",
+      "evidence": "install-installed.png"
+    },
+    {
+      "check": "OS eject removed source volume; emulator reports an empty floppy drive",
+      "floppy_state": 132,
+      "state_mask": 7,
+      "empty_state": 4,
+      "evidence": "install-floppy-ejected.png"
+    },
+    {
+      "check": "Games copy launched a complete native first room with no source media",
+      "evidence": "native-hd-launch-ready.png",
+      "facing": "ESZAK"
+    },
+    {
+      "check": "Actual Right down/up changed heading from North to East after HD launch",
+      "evidence": "native-hd-right.png",
+      "facing": "KELET"
+    }
+  ],
+  "guest_state_writes": false,
+  "image_sha256": "d95b32c3e84ca054dbaab8714d7386cb5b6e20d247b7528b332506974ad1d8d1",
+  "ram_kb": 1024,
+  "los": "3.1",
+  "emulator_target_mhz": 5,
+  "source_floppy_empty": true,
+  "input": "Normal Filer Duplicate/drag/eject/Open and COPS physical Right down/up",
+  "screen_capture": "Normal X11 full refresh for HD gameplay; RAM captures only for Filer navigation",
+  "physical_hardware_tested": false,
+  "windows_runtime_tested": false
+}

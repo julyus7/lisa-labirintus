@@ -1,0 +1,11 @@
+{
+  "source_regeneration_exact": true,
+  "model_checks": 69359,
+  "source_matches_compiled_release": true,
+  "sha256": "d95b32c3e84ca054dbaab8714d7386cb5b6e20d247b7528b332506974ad1d8d1",
+  "native_tests_rerun_for_publication": false,
+  "private_material_excluded": true,
+  "dc42_matches_tested_local_release": true,
+  "fixed_tool_payloads_match_current_nas": true,
+  "nas_container_metadata_differs": true
+}

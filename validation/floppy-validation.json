@@ -1,0 +1,17 @@
+{
+  "image_sha256": "d95b32c3e84ca054dbaab8714d7386cb5b6e20d247b7528b332506974ad1d8d1",
+  "bytes": 419284,
+  "tool_id": 249,
+  "volume_uid_suffix": "D60A",
+  "filer_name": "Labirintus",
+  "executable_sha256": "428e131791cf5d7d89fe90603722f830966fe33a52a1eb74a4828d8b634288ec",
+  "executable_bytes": 15872,
+  "native_source_matches": true,
+  "executable_unmodified_after_native_link": true,
+  "native_sony_tags_preserved": 800,
+  "filer_tool_label_valid": true,
+  "matching_icon_resources": 3,
+  "icon_planes": 4,
+  "icon_width": 48,
+  "icon_height": 32
+}
