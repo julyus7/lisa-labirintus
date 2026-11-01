@@ -21,3 +21,8 @@ so historical native reports are not a portable one-command test harness.
 Physical Lisa 2, Windows LisaEm and separate LOS 3.0 tests were not performed.
 
 [Hungarian detailed report](VALIDATION-HU.md).
+
+
+## 1.0.1 keyboard-control update
+
+The WASD input handler compiled with Lisa Pascal 3.26 and linked with zero errors using M68000 Linker 3.0. DC42 validation passed: 419,284 bytes, tool ID 249, volume suffix D60A, 800 native tags, and three matching icon resources. The updated key events were not separately exercised in a physical Lisa or in-game runtime session; this release does not claim that verification.

@@ -240,7 +240,7 @@ begin
  else s:='Gyujtsd ossze a kulcsokat! A kijaratot a terkepen X jeloli.';
  MZHudLine(2,s);
  case mzState[8] of 0:t:='ESZAK'; 1:t:='KELET'; 2:t:='DEL'; 3:t:='NYUGAT'; otherwise t:='' end;
- s:=concat('Bal/Jobb: fordulas. Fel: elore. Le: hatra. Irany: ',t); MZHudLine(3,s);
+ s:=concat('W: elore  S: hatra  A/D: fordulas. Irany: ',t); MZHudLine(3,s);
  p:=mzState[17];
  if mzButtons<>p then begin
   for i:=0 to 3 do begin
@@ -255,8 +255,21 @@ begin
  MZReport; mzState[20]:=0
 end;
 procedure MZKey(ch : char; repeated : boolean);
+var a : integer;
 begin
- { Arrow key state is polled. Character repeat never drives movement. }
+ { Lisa has no dedicated cursor-key cluster: accept ordinary WASD key events. }
+ a:=0;
+ case ch of
+  'a','A':a:=1;
+  'd','D':a:=2;
+  'w','W':a:=3;
+  's','S':a:=4;
+  otherwise exit(MZKey)
+ end;
+ if (activeFolder<>myWindow) or (mzState[4]<>1) then exit(MZKey);
+ { Ignore operating-system key repeat; each physical press is one command. }
+ if repeated then exit(MZKey);
+ MZAction(a); MZDraw
 end;
 procedure MZRelease;
 begin

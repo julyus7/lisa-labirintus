@@ -78,3 +78,8 @@ Windows LisaEmben és külön LOS 3.0 környezetben nem történt futási próba
 A fizikai floppyírást és egy konkrét hardveres floppyhelyettesítőt sem
 ellenőriztünk. A DC42 alkalmazásfloppy, LOS nélkül nem indul.
 A játszma nem mentődik vissza új programindításkor.
+
+
+## 1.0.1 billentyűvezérlés-frissítés
+
+A WASD bemeneti kezelőt Lisa Pascal 3.26 fordította, a M68000 Linker 3.0 nulla hibával linkelte. A DC42 ellenőrzése sikeres: 419284 bájt, tool 249, D60A lemezazonosító, 800 natív tag, mindhárom ikonerőforrás egyezik. A fizikai Lisa billentyűzetén a WASD eseményeket, valamint a friss bináris játék közbeni bemenetét nem sikerült külön ellenőriznem; ezt a csomag nem állítja igazoltnak.

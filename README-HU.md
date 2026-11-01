@@ -27,29 +27,14 @@ igazolt próba esetén állítható tesztelt működés.
 
 ## Kezelés és cél
 
-LisaEmben válaszd a **Key → Raw Keyboard** módot.
-
-| Billentyű | Művelet |
-| --- | --- |
-| Bal | Fordulás 90 fokkal balra |
-| Jobb | Fordulás 90 fokkal jobbra |
-| Fel | Egy mező előre |
-| Le | Egy mező hátra, az irány megtartásával |
-
-Egy nyíl lenyomása azonnal végrehajt egy parancsot. Nyomva tartva ismétlődik;
-a célzott ismétlési köz 180 ms. Lassabb emulációban ez hosszabb lehet.
-Felengedéskor megszűnik az ismétlés. Egyszerre egy nyílbillentyű vezérel;
-több nyíl együtt nem indít új parancsot. Ha már csak az egyik marad
-lenyomva, az folytatja a mozgást vagy fordulást.
+Lisa billentyűzeten használd a **W/A/S/D** gombokat: W előre, S hátra,
+A balra fordul, D jobbra fordul. Minden új lenyomás egy parancsot hajt végre; a billentyű automatikus
+ismétlését figyelmen kívül hagyja.
+Emulátorban a kurzornyilak is használhatók.
 
 A négy képernyőgomb: **Ujra**, **Elozo palya**, **Kovetkezo palya**,
-**Terkep: teljes / Terkep: felfedes**. Az utolsó a térképnézetet váltja.
-
-A falon nem lehet átmenni. A kulcsokat rájuk lépve veszed fel. A kijáratra
-akkor léphetsz be győzelemmel, ha már minden kulcsot összegyűjtöttél.
-A térkép mutatja a helyedet és azt is, merre nézel; teljes és felfedezett
-térképnézet közül választhatsz. Újrakezdéskor az aktuális pálya alaphelyzete
-áll vissza. A játszma új programindításkor nem töltődik vissza.
+**Terkep: teljes / Terkep: felfedes**. A falon nem lehet átmenni. A kulcsokat
+rájuk lépve veszed fel; a kijárat csak az összes kulcs összegyűjtése után nyílik.
 
 ## Saját ikon és azonosító
 

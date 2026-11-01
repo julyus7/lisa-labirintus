@@ -32,12 +32,13 @@ Boot your LOS, mount the DC42 and launch **Labirintus**. Select
 
 | Key | Action |
 | --- | --- |
-| Left / Right | Turn 90 degrees |
-| Up | Move forward one cell |
-| Down | Move backward without turning |
+| A | Turn left 90 degrees |
+| D | Turn right 90 degrees |
+| W | Move forward one cell |
+| S | Move backward without turning |
+| Cursor arrows | Optional emulator alternative |
 
-Hold one arrow to repeat; release it to stop. Multiple simultaneous arrows
-do not issue a command. Buttons restart, choose the previous/next level and
+On a Lisa keyboard, use **W/A/S/D**: W forward, S backward, A turn left, D turn right. Each new key press makes one move; repeated key-down events are ignored. Cursor arrows remain an optional emulator alternative. Buttons restart, choose the previous/next level and
 toggle the full/explored map. The exit wins only after collecting every key.
 A fresh launch starts the first level; progress is not saved across launches.
 
