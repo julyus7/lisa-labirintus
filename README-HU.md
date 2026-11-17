@@ -1,5 +1,13 @@
 # Labirintus 3D – Apple Lisa 2 / Lisa Office System
 
+<!-- cover-art:start -->
+<p align="center">
+  <a href="artwork/cover-hu.png"><img src="artwork/cover-hu.png" width="320" alt="LABIRINTUS 3D — Magyar borító"></a>
+  <a href="artwork/cover-en.png"><img src="artwork/cover-en.png" width="320" alt="MAZE 3D — English cover"></a>
+</p>
+<p align="center"><a href="artwork/cover-en.png">English cover</a> · <a href="artwork/cover-hu.png">Magyar borító</a></p>
+<!-- cover-art:end -->
+
 Magyar nyelvű, natív Lisa Pascal / MC68000 labirintusjáték. Balra belső nézetű,
 perspektivikus folyosórajz, mellette felülnézeti térkép segíti a tájékozódást.
 A három saját, 15×15 mezős pályán kulcsokat kell összegyűjteni, majd eljutni

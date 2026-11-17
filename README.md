@@ -1,5 +1,13 @@
 # Labirintus 3D — Maze game for Apple Lisa 2
 
+<!-- cover-art:start -->
+<p align="center">
+  <a href="artwork/cover-en.png"><img src="artwork/cover-en.png" width="320" alt="MAZE 3D — English cover"></a>
+  <a href="artwork/cover-hu.png"><img src="artwork/cover-hu.png" width="320" alt="LABIRINTUS 3D — Magyar borító"></a>
+</p>
+<p align="center"><a href="artwork/cover-en.png">English cover</a> · <a href="artwork/cover-hu.png">Magyar borító</a></p>
+<!-- cover-art:end -->
+
 **Native Motorola 68000 application for real Apple Lisa 2 hardware running
 Lisa Office System 3 / 3.1**, intended for Lisa 2/5 and 2/10. LisaEm is also supported.
 
